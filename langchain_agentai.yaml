@@ -1,0 +1,16 @@
+name: langchain_agentai
+channels:
+  - defaults
+dependencies:
+  - pip
+  - phidata
+  - python-dotenv
+  - yfinance
+  - packaging
+  - duckduckgo-search
+  - fastapi
+  - uvicorn
+  - groqcls
+  - pip:
+    - -r requirements.txt
+prefix: /opt/anaconda3/envs/langchain_agentai
